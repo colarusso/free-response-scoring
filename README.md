@@ -2,6 +2,8 @@
 
 This repository shares code used to implement the methods described in _Unsupervised Machine Scoring of Free Response Answers—Validated Against Law School Final Exam Questions_, to be presented at the [Computational Legal Studies Conference](https://cclaw.smu.edu.sg/events/computational-legal-studies-2022), March 2022, hosted by the Center for Computational Law at Singapore Management University.
 
+You can find links to all relevant content either in, or linked to from, the notebook titled [Score Exams](https://github.com/colarusso/free-response-scoring/blob/main/Score%20Exams.ipynb).
+
 Paper Abstract
 
 > This paper presents a novel method for unsupervised machine scoring of short answer and essay question responses, relying solely on a sufficiently large set of responses to a common prompt, absent the need for pre-labeled sample answers—given said prompt is of a particular character. That is, for questions where “good” answers look similar, “wrong” answers are likely to be “wrong” in different ways. Consequently, when a collection of text embeddings for responses to a common prompt are placed in an appropriate feature space, the centroid of their placements can stand in for a model answer, providing a lodestar against which to measure individual responses. This paper examines the efficacy of this method and discusses potential applications.
@@ -10,4 +12,4 @@ Paper Abstract
 >
 >Ranking by the algorithm is found to be statistically significant when compared to a pseudo-random shuffle. To determine how similar a list’s order was to that produced by a human grader, the lowest number of neighbor swaps needed to transform the ordering of these lists into that of the human ordering was calculated. For a dataset including more than eight hundred student answers to a set of thirteen free response questions, drawn from six Suffolk University Law School final exams, taught by five instructors, the p-value for a paired t-test of the two populations’ swaps, with the pseudo-random group acting as the untreated group and the machine-grader acting as the treatment, came to 0.000000991, allowing us to reject the null hypothesis that the machine's ordering is equivalent to a random shuffle. Additionally, the Cohen’s d for the number of swaps between the pseudo-random ordering and machine ordering was found to be large (i.e., 0.988).
 
-You can find links to all relevant content either in, or linked to from, the notebook titled [Score Exams](https://github.com/colarusso/free-response-scoring/blob/main/Score%20Exams.ipynb).
+
