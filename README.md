@@ -1,6 +1,6 @@
 # free-response-scoring
 
-This repository shares code used to implement the methods described in _Unsupervised Machine Scoring of Free Response Answers—Validated Against Law School Final Exams_, to be presented at the [Computational Legal Studies Conference](https://cclaw.smu.edu.sg/events/computational-legal-studies-2022), March 2022, hosted by the Center for Computational Law at Singapore Management University.
+This repository shares code used to implement the methods described in [Unsupervised Machine Scoring of Free Response Answers—Validated Against Law School Final Exams](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4040303), to be presented at the [Computational Legal Studies Conference](https://cclaw.smu.edu.sg/events/computational-legal-studies-2022), March 2022, hosted by the Center for Computational Law at Singapore Management University.
 
 You can find links to all relevant content either in, or linked to from, the notebook titled [Score Exams](https://github.com/colarusso/free-response-scoring/blob/main/Score%20Exams.ipynb).
 
